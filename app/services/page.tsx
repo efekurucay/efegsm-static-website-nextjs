@@ -13,52 +13,52 @@ export default function ServicesPage() {
   const repairServices = [
     {
       icon: Smartphone,
-      title: "Ekran Değişimi",
-      description: "Kırık veya çatlak ekranları profesyonel şekilde değiştiriyoruz",
-      duration: "30 dakika",
-      warranty: "6 ay garanti",
+      title: t("repair.screen"),
+      description: t("repair.screen.desc"),
+      duration: t("duration.30min"),
+      warranty: t("warranty.6months"),
     },
     {
       icon: Battery,
-      title: "Batarya Değişimi",
-      description: "Orijinal bataryalarla değişim hizmeti",
-      duration: "20 dakika",
-      warranty: "1 yıl garanti",
+      title: t("repair.battery"),
+      description: t("repair.battery.desc"),
+      duration: t("duration.20min"),
+      warranty: t("warranty.1year"),
     },
     {
       icon: Droplets,
-      title: "Su Hasarı Tamiri",
-      description: "Suya düşen telefonlar için özel temizlik ve tamir",
-      duration: "2-4 saat",
-      warranty: "3 ay garanti",
+      title: t("repair.water"),
+      description: t("repair.water.desc"),
+      duration: t("duration.2to4hours"),
+      warranty: t("warranty.3months"),
     },
   ]
 
   const simServices = [
     {
-      title: "Türkiye Hatları",
-      description: "Turkcell, Vodafone, Türk Telekom ön ödemeli hatlar",
-      features: ["Anında aktivasyon", "Farklı paket seçenekleri", "Türkçe destek"],
+      title: t("sim.turkey"),
+      description: t("sim.turkey.desc"),
+      features: [t("features.instant"), t("features.packages"), t("features.turkish")],
     },
     {
-      title: "Uluslararası Hatlar",
-      description: "Rusya, Almanya, İngiltere ve diğer ülkeler için",
-      features: ["Çok dilli destek", "Uygun roaming", "Kolay kullanım"],
+      title: t("sim.international"),
+      description: t("sim.international.desc"),
+      features: [t("features.multilang"), t("features.roaming"), t("features.easy")],
     },
   ]
 
   const accessories = [
     {
-      category: "Koruma",
-      items: ["Temperli cam", "Telefon kılıfı", "Su geçirmez kılıf"],
+      category: t("accessories.protection"),
+      items: [t("items.glass"), t("items.case"), t("items.waterproof")],
     },
     {
-      category: "Şarj Ürünleri",
-      items: ["Powerbank", "Kablosuz şarj cihazı", "Hızlı şarj kablosu"],
+      category: t("accessories.charging"),
+      items: [t("items.powerbank"), t("items.wireless"), t("items.cable")],
     },
     {
-      category: "Ses Ürünleri",
-      items: ["Bluetooth kulaklık", "Kablolu kulaklık", "Hoparlör"],
+      category: t("accessories.audio"),
+      items: [t("items.bluetooth"), t("items.wired"), t("items.speaker")],
     },
   ]
 
@@ -67,8 +67,8 @@ export default function ServicesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{t("nav.services")}</h1>
-          <p className="text-xl text-gray-600">Profesyonel ve güvenilir hizmetlerimiz</p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">{t("services.page.title")}</h1>
+          <p className="text-xl text-gray-600">{t("services.page.subtitle")}</p>
         </div>
 
         {/* Phone Repair Services */}
@@ -89,11 +89,11 @@ export default function ServicesPage() {
                     <p className="text-gray-600 mb-4">{service.description}</p>
                     <div className="space-y-2">
                       <div className="flex justify-between">
-                        <span className="text-sm text-gray-500">Süre:</span>
+                        <span className="text-sm text-gray-500">{t("duration")}:</span>
                         <span className="font-medium">{service.duration}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-sm text-gray-500">Garanti:</span>
+                        <span className="text-sm text-gray-500">{t("warranty")}:</span>
                         <Badge variant="secondary">{service.warranty}</Badge>
                       </div>
                     </div>
@@ -161,14 +161,14 @@ export default function ServicesPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-3xl font-bold mb-4">Hizmet Almak İster misiniz?</h2>
-          <p className="text-xl mb-8">Size en uygun çözümü bulmak için hemen iletişime geçin</p>
+          <h2 className="text-3xl font-bold mb-4">{t("cta.service.title")}</h2>
+          <p className="text-xl mb-8">{t("cta.service.subtitle")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <WhatsAppButton className="bg-white text-green-600 hover:bg-gray-100" />
             <TelegramButton className="bg-white text-blue-600 hover:bg-gray-100" />
             <div className="flex items-center space-x-2 text-white">
               <Clock className="w-5 h-5" />
-              <span>Pazartesi - Cumartesi: 09:00 - 19:00</span>
+              <span>{t("schedule")}</span>
             </div>
           </div>
         </section>

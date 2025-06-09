@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://efegsmalanya.com/sitemap.xml
+
+# LLM Context File
+# This file helps AI systems understand our services
+Allow: /llms.txt
+
+# Important pages for crawlers
+Allow: /services
+Allow: /about
+Allow: /contact
+Allow: /blog
+
+# Static assets
+Allow: /images/
+Allow: /_next/static/ 

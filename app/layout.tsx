@@ -19,6 +19,16 @@ export const metadata: Metadata = {
   creator: "Efe GSM Alanya",
   publisher: "Efe GSM Alanya",
   robots: "index, follow",
+  icons: {
+    icon: [
+      { url: "/images/efe-gsm-logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/efe-gsm-logo.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/images/efe-gsm-logo.png",
+    apple: [
+      { url: "/images/efe-gsm-logo.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   openGraph: {
     title: "Efe GSM Alanya - 30 Dakikada Telefon Tamiri",
     description:

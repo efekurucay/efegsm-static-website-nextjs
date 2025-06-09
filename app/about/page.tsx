@@ -11,45 +11,45 @@ export default function AboutPage() {
     {
       icon: Clock,
       number: "5+",
-      label: "Yıl Tecrübe",
+      label: t("about.stats.experience"),
     },
     {
       icon: Users,
       number: "1000+",
-      label: "Mutlu Müşteri",
+      label: t("about.stats.customers"),
     },
     {
       icon: Award,
       number: "30",
-      label: "Dakika Garanti",
+      label: t("about.stats.guarantee"),
     },
     {
       icon: Star,
       number: "4.9",
-      label: "Müşteri Puanı",
+      label: t("about.stats.rating"),
     },
   ]
 
   const values = [
     {
       icon: Shield,
-      title: "Güvenilirlik",
-      description: "Müşterilerimizin güvenini kazanmak için her zaman dürüst ve şeffaf hizmet veriyoruz.",
+      title: t("about.values.reliability"),
+      description: t("about.values.reliability.desc"),
     },
     {
       icon: Clock,
-      title: "Hızlı Hizmet",
-      description: "Zamanınızın değerli olduğunu biliyoruz. Bu yüzden en hızlı şekilde hizmet vermeye odaklanıyoruz.",
+      title: t("about.values.speed"),
+      description: t("about.values.speed.desc"),
     },
     {
       icon: Award,
-      title: "Kalite",
-      description: "Sadece orijinal parçalar kullanıyor ve işçiliğimizin arkasında duruyoruz.",
+      title: t("about.values.quality"),
+      description: t("about.values.quality.desc"),
     },
     {
       icon: Users,
-      title: "Müşteri Odaklılık",
-      description: "Her müşterimizi özel hissettirmek ve ihtiyaçlarına özel çözümler sunmak önceliğimiz.",
+      title: t("about.values.customer"),
+      description: t("about.values.customer.desc"),
     },
   ]
 
@@ -66,21 +66,11 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Hikayemiz</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t("about.story.title")}</h2>
               <div className="space-y-4 text-gray-600">
-                <p>
-                  Efe GSM, 2019 yılında Alanya'da küçük bir dükkan olarak başladı. Kurucumuz Efe, teknoloji tutkusu ve
-                  müşteri memnuniyetini her şeyin üstünde tutan yaklaşımıyla bu yolculuğa çıktı.
-                </p>
-                <p>
-                  İlk günden itibaren "30 dakikada ekran değişimi" sloganımızla hızlı ve kaliteli hizmet verme
-                  prensibimizden ödün vermedik. Bugün binlerce mutlu müşterimizle Alanya'nın en güvenilir GSM servisi
-                  haline geldik.
-                </p>
-                <p>
-                  Sadece yerel halk değil, Alanya'yı ziyaret eden turistlere de çok dilli hizmet vererek onların
-                  tatillerinin aksamamasını sağlıyoruz.
-                </p>
+                <p>{t("about.story.p1")}</p>
+                <p>{t("about.story.p2")}</p>
+                <p>{t("about.story.p3")}</p>
               </div>
             </div>
             <div className="relative">
@@ -107,8 +97,8 @@ export default function AboutPage() {
         {/* Values Section */}
         <section className="mb-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Değerlerimiz</h2>
-            <p className="text-lg text-gray-600">Bizi farklı kılan değerler</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("about.values.title")}</h2>
+            <p className="text-lg text-gray-600">{t("about.values.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -136,24 +126,21 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-8 text-white">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-4">Konumumuz</h2>
+                <h2 className="text-3xl font-bold mb-4">{t("about.location.title")}</h2>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-6 h-6" />
-                    <span className="text-lg">Alanya Merkez, Antalya</span>
+                    <span className="text-lg">{t("about.location.address")}</span>
                   </div>
-                  <p className="text-lg opacity-90">
-                    Alanya'nın kalbinde, kolay ulaşılabilir konumumuzda sizleri bekliyoruz. Hem yerli hem de yabancı
-                    müşterilerimize hizmet veriyoruz.
-                  </p>
+                  <p className="text-lg opacity-90">{t("about.location.desc")}</p>
                   <div className="grid grid-cols-2 gap-4 mt-6">
                     <div>
-                      <h3 className="font-semibold mb-2">Çalışma Saatleri</h3>
-                      <p className="text-sm opacity-90">Pazartesi - Cumartesi</p>
-                      <p className="text-sm opacity-90">09:00 - 19:00</p>
+                      <h3 className="font-semibold mb-2">{t("about.hours.title")}</h3>
+                      <p className="text-sm opacity-90">{t("about.hours.weekdays")}</p>
+                      <p className="text-sm opacity-90">{t("about.hours.time")}</p>
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-2">Dil Desteği</h3>
+                      <h3 className="font-semibold mb-2">{t("about.support.title")}</h3>
                       <p className="text-sm opacity-90">🇹🇷 Türkçe</p>
                       <p className="text-sm opacity-90">🇬🇧 English</p>
                       <p className="text-sm opacity-90">🇷🇺 Русский</p>
@@ -163,27 +150,27 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-4">Neden Bizi Seçmelisiniz?</h3>
+                <h3 className="text-xl font-semibold mb-4">{t("about.why.title")}</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span>30 dakika garanti ile hızlı hizmet</span>
+                    <span>{t("about.why.feature1")}</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span>Orijinal parça kullanımı</span>
+                    <span>{t("about.why.feature2")}</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span>Çok dilli müşteri desteği</span>
+                    <span>{t("about.why.feature3")}</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span>Uygun fiyat garantisi</span>
+                    <span>{t("about.why.feature4")}</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <span>Uzun süreli garanti</span>
+                    <span>{t("about.why.feature5")}</span>
                   </li>
                 </ul>
               </div>

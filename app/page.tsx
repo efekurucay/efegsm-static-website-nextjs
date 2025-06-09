@@ -17,45 +17,45 @@ export default function HomePage() {
       icon: Smartphone,
       title: t("services.repair"),
       description: t("services.repair.desc"),
-      duration: "30 dk",
-      keywords: "iPhone tamir, Samsung tamir, ekran değişimi, batarya tamiri",
+      duration: t("services.duration.30min"),
+      keywords: t("services.keywords.repair"),
     },
     {
       icon: Sim,
       title: t("services.sim"),
       description: t("services.sim.desc"),
-      duration: "5 dk",
-      keywords: "Turkcell, Vodafone, Türk Telekom, ön ödemeli hat",
+      duration: t("services.duration.5min"),
+      keywords: t("services.keywords.sim"),
     },
     {
       icon: Headphones,
       title: t("services.accessories"),
       description: t("services.accessories.desc"),
-      duration: "Anında",
-      keywords: "powerbank, telefon kılıfı, kulaklık, şarj cihazı",
+      duration: t("services.duration.instant"),
+      keywords: t("services.keywords.accessories"),
     },
   ]
 
   const features = [
     {
       icon: Zap,
-      title: "30 Dakika Garanti",
-      description: "Ekran değişimi ve çoğu tamir işlemi 30 dakikada tamamlanır",
+      title: t("features.30min"),
+      description: t("features.30min.desc"),
     },
     {
       icon: Shield,
-      title: "6 Ay Garanti",
-      description: "Tüm tamir işlemlerimizde 6 aya kadar garanti veriyoruz",
+      title: t("features.6month"),
+      description: t("features.6month.desc"),
     },
     {
       icon: Award,
-      title: "Orijinal Parça",
-      description: "Sadece orijinal ve kaliteli yedek parçalar kullanıyoruz",
+      title: t("features.original"),
+      description: t("features.original.desc"),
     },
     {
       icon: Star,
-      title: "5 Yıl Tecrübe",
-      description: "Alanya'da 5 yıldır güvenilir GSM hizmeti veriyoruz",
+      title: t("features.experience"),
+      description: t("features.experience.desc"),
     },
   ]
 
@@ -111,8 +111,8 @@ export default function HomePage() {
       <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Desteklediğimiz Telefon Modelleri</h2>
-            <p className="text-gray-600">Tüm marka ve modeller için profesyonel tamir hizmeti</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">{t("phonemodels.title")}</h2>
+            <p className="text-gray-600">{t("phonemodels.subtitle")}</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
             {phoneModels.map((model, index) => (
@@ -131,8 +131,8 @@ export default function HomePage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Hizmetlerimiz</h2>
-            <p className="text-lg text-gray-600">Alanya'da en kapsamlı GSM hizmetleri</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("services.title")}</h2>
+            <p className="text-lg text-gray-600">{t("services.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -165,7 +165,7 @@ export default function HomePage() {
 
           <div className="text-center mt-12">
             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4">
-              Tüm Hizmetleri Gör
+              {t("services.viewall")}
             </Button>
           </div>
         </div>
@@ -183,53 +183,34 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Alanya'da Telefon Tamiri</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t("seo.repair.title")}</h2>
               <div className="space-y-4 text-gray-600">
-                <p>
-                  <strong>Efe GSM Alanya</strong> olarak, şehrimizde en hızlı ve güvenilir telefon tamiri hizmeti
-                  sunuyoruz.
-                  <strong>iPhone tamiri</strong>, <strong>Samsung tamiri</strong>, <strong>Huawei tamiri</strong> ve
-                  diğer tüm marka telefonlar için profesyonel çözümler sağlıyoruz.
-                </p>
-                <p>
-                  <strong>Ekran değişimi</strong>, <strong>batarya tamiri</strong>, <strong>su hasarı onarımı</strong>{" "}
-                  gibi tüm tamir işlemlerinde orijinal parça kullanımı ve uzun süreli garanti ile hizmet veriyoruz.
-                  Alanya merkez konumumuzda, hem yerli hem de yabancı müşterilerimize çok dilli destek sağlıyoruz.
-                </p>
+                <p>{t("seo.repair.content1")}</p>
+                <p>{t("seo.repair.content2")}</p>
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Neden Efe GSM?</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">{t("seo.why.title")}</h2>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
-                  <span>
-                    <strong>30 dakika garanti</strong> ile hızlı ekran değişimi
-                  </span>
+                  <span>{t("seo.why.feature1")}</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
-                  <span>
-                    <strong>Orijinal parça</strong> kullanımı ve kalite garantisi
-                  </span>
+                  <span>{t("seo.why.feature2")}</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
-                  <span>
-                    <strong>Çok dilli hizmet</strong> (Türkçe, İngilizce, Rusça, Almanca)
-                  </span>
+                  <span>{t("seo.why.feature3")}</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
-                  <span>
-                    <strong>Şeffaf hizmet</strong> ve dürüst yaklaşım
-                  </span>
+                  <span>{t("seo.why.feature4")}</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
-                  <span>
-                    <strong>6 aya kadar garanti</strong> tüm tamir işlemlerinde
-                  </span>
+                  <span>{t("seo.why.feature5")}</span>
                 </li>
               </ul>
             </div>
@@ -240,8 +221,8 @@ export default function HomePage() {
       {/* Contact CTA */}
       <section className="py-16 bg-gradient-to-r from-red-600 to-red-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Telefonunuz Bozuldu mu?</h2>
-          <p className="text-xl mb-8">Hemen iletişime geçin, profesyonel çözümler sunalım!</p>
+          <h2 className="text-3xl font-bold mb-4">{t("cta.title")}</h2>
+          <p className="text-xl mb-8">{t("cta.subtitle")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <WhatsAppButton className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 text-lg" />
             <TelegramButton className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg" />
@@ -250,7 +231,7 @@ export default function HomePage() {
             <GoogleReviewButton className="bg-white text-yellow-600 hover:bg-gray-100 px-6 py-3" />
           </div>
           <div className="text-red-100">
-            <p className="text-sm">📍 Alanya Merkez | 📞 +90 532 368 15 55 | ⏰ Pazartesi-Cumartesi 09:00-19:00</p>
+            <p className="text-sm">{t("cta.location")}</p>
           </div>
         </div>
       </section>

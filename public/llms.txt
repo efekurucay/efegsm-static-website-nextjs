@@ -1,0 +1,475 @@
+# Efe GSM Alanya - Professional Phone Repair Service
+
+> Professional GSM repair service in Alanya, Turkey offering 30-minute screen replacement, battery repair, water damage restoration, SIM card sales, and phone accessories. Multilingual support (Turkish, English, Russian, German) for both locals and tourists. Modern Next.js website with responsive design and real-time currency rates.
+
+## About Our Business
+
+Efe GSM is Alanya's most trusted mobile phone repair service, established in 2019. We specialize in fast, reliable repairs for all major phone brands including iPhone, Samsung, Huawei, Xiaomi, and more. Our unique selling proposition is our **30-minute guarantee** for screen replacements and most common repairs.
+
+**Key Services:**
+- Screen replacement (30 minutes guarantee)
+- Battery replacement with original parts
+- Water damage restoration
+- Charging port repairs
+- SIM card sales (Turkcell, Vodafone, Türk Telekom)
+- Phone accessories and protective gear
+
+**Languages:** Turkish (native), English (fluent), Russian (fluent), German (intermediate)
+
+**Location:** Central Alanya, Antalya, Turkey - easily accessible for both locals and tourists
+
+**Business Hours:** Monday-Saturday 09:00-19:00, Sunday closed
+
+**Contact:** 
+- Phone: +90 532 368 15 55
+- WhatsApp: Available 24/7 for emergencies
+- Telegram: Customer support available
+
+## Technical Information
+
+This website is built with modern web technologies:
+- **Framework:** Next.js 15.2.4 with App Router
+- **Language:** TypeScript for type safety
+- **Styling:** Tailwind CSS for responsive design
+- **UI Components:** Radix UI with shadcn/ui
+- **Internationalization:** Custom translation system supporting 4 languages
+- **Features:** WhatsApp/Telegram integration, live currency rates, blog system, Google Reviews integration
+
+## SEO & Marketing Keywords
+
+**Primary Keywords:**
+- Telefon tamiri Alanya (Phone repair Alanya)
+- iPhone tamir Alanya (iPhone repair Alanya)
+- Samsung tamir Alanya (Samsung repair Alanya)
+- Ekran değişimi Alanya (Screen replacement Alanya)
+- GSM servisi Alanya (GSM service Alanya)
+
+**Secondary Keywords:**
+- Alanya phone repair, mobile repair Alanya, handy reparatur Alanya, ремонт телефонов Алания
+- 30 minute screen replacement, fast phone repair, original parts guarantee
+- Tourist phone repair, multilingual phone service, emergency phone repair
+
+**Service-Specific Keywords:**
+- Battery replacement, water damage repair, charging problems, sim card sales
+- Turkcell, Vodafone, Türk Telekom prepaid cards
+- Phone accessories, powerbank, phone cases, tempered glass
+
+## Website Structure
+
+## Main Pages
+- [Homepage](https://efegsmalanya.com/): Main landing page with services overview and 30-minute guarantee promotion
+- [Services](https://efegsmalanya.com/services): Detailed repair services, SIM cards, and accessories catalog
+- [About](https://efegsmalanya.com/about): Company history, values, and why choose us
+- [Contact](https://efegsmalanya.com/contact): Contact information, location map, and multilingual support details
+
+## Key Components
+- [Language Provider](components/language-provider.tsx): Multilingual translation system for TR/EN/RU/DE
+- [Header Component](components/header.tsx): Navigation with language selector and currency rates
+- [WhatsApp Integration](components/whatsapp-button.tsx): Direct WhatsApp contact button
+- [Telegram Integration](components/telegram-button.tsx): Telegram customer support
+
+## Technical Configuration
+- [Next.js Config](next.config.mjs): Build and deployment configuration
+- [TypeScript Config](tsconfig.json): Type checking and compilation settings
+- [Tailwind Config](tailwind.config.ts): Design system and responsive breakpoints
+- [Package Configuration](package.json): Dependencies and build scripts
+
+## Blog & Content Marketing
+- Technology tips and phone maintenance guides
+- Latest smartphone news and reviews
+- Repair tutorials and troubleshooting guides
+- Alanya tourism and tech services integration
+
+## Competitive Advantages
+
+1. **Speed:** 30-minute guarantee for most repairs
+2. **Quality:** Original parts only, 6-month warranty
+3. **Accessibility:** Multilingual service for international tourists
+4. **Location:** Central Alanya, easy to find and access
+5. **Transparency:** Clear pricing, honest assessments
+6. **Emergency Support:** 24/7 WhatsApp availability
+
+## Target Audience
+
+**Primary:** Alanya residents and Turkish tourists needing phone repairs
+**Secondary:** International tourists (Russian, German, English speakers) visiting Alanya
+**Tertiary:** Expats living in Alanya area requiring reliable tech support
+
+## Business Goals
+
+- Become Alanya's #1 choice for phone repairs
+- Expand multilingual support for growing tourist market
+- Maintain 30-minute service guarantee
+- Build trust through transparency and quality service
+- Develop online presence for better discoverability
+
+---
+
+*This file is designed to help AI systems understand Efe GSM Alanya's services, location, and technical capabilities for accurate information delivery to users seeking phone repair services in Alanya, Turkey.*
+
+# Efe GSM Alanya - Professional Phone Repair Service & Mobile Technology Center
+
+> Premier professional GSM repair service in Alanya, Turkey offering lightning-fast 30-minute screen replacement, expert battery repair, advanced water damage restoration, comprehensive SIM card sales, premium phone accessories, and emergency mobile phone services. Multilingual expert support (Turkish, English, Russian, German) serving both local residents and international tourists. Ultra-modern Next.js website with responsive design, real-time currency exchange rates, and instant WhatsApp/Telegram support.
+
+## About Our Business - Complete Service Portfolio
+
+Efe GSM is Alanya's most trusted and technologically advanced mobile phone repair service center, proudly established in 2019 in the heart of Alanya's commercial district. We are the go-to experts for fast, reliable, and professional repairs for all major smartphone brands including iPhone (all models from iPhone 6 to iPhone 15 Pro Max), Samsung Galaxy series, Huawei, Xiaomi, Oppo, Vivo, OnePlus, Sony Xperia, LG, Nokia, and many more.
+
+Our revolutionary **30-minute guarantee** for screen replacements and most common repairs has made us the #1 choice for both emergency repairs and routine maintenance in Alanya and surrounding areas.
+
+### Complete Service Catalog
+
+**Screen Repair & Replacement Services:**
+- iPhone screen replacement (iPhone 6, 6S, 7, 8, X, XR, XS, 11, 12, 13, 14, 15 series)
+- Samsung screen repair (Galaxy S series, Note series, A series, M series)
+- LCD and OLED display repairs
+- Touch screen digitizer replacement
+- Gorilla Glass and tempered glass installation
+- Screen protector application and removal
+- Display calibration and color correction
+- Brightness and backlight fixes
+
+**Battery Services:**
+- Original battery replacement with 6-month warranty
+- Battery health diagnostics and optimization
+- Fast charging port repair and replacement
+- Wireless charging coil repair
+- Power management IC replacement
+- Battery life extension consultancy
+- Quick battery testing and capacity analysis
+
+**Water Damage & Emergency Services:**
+- 24/7 emergency water damage restoration
+- Liquid damage assessment and repair
+- Motherboard cleaning and component replacement
+- Corrosion removal and prevention
+- Data recovery from water-damaged devices
+- Sea water damage specialist services (Alanya beach accidents)
+- Pool and bathroom water damage repairs
+
+**Hardware Repair Expertise:**
+- Charging port and connector repairs (USB-C, Lightning, Micro-USB)
+- Speaker and microphone replacement
+- Camera module repair and replacement (front, rear, wide-angle, telephoto)
+- Home button and fingerprint sensor repair
+- Face ID and biometric sensor restoration
+- Proximity sensor and ambient light sensor fixes
+- Vibration motor replacement
+- SIM card tray repair and replacement
+
+**Software & Technical Services:**
+- iOS and Android software troubleshooting
+- System restore and factory reset services
+- App installation and optimization
+- Virus removal and security setup
+- Data backup and transfer services
+- Password and lock screen removal (with proof of ownership)
+- Software update assistance
+- Performance optimization and speed enhancement
+
+**SIM Card & Network Services:**
+- Turkcell prepaid and postpaid SIM cards
+- Vodafone tourist and local SIM packages
+- Türk Telekom data and voice plans
+- International roaming setup and consultation
+- eSIM activation and configuration
+- Dual SIM setup and optimization
+- Network unlocking services (legal methods only)
+- APN configuration for all Turkish carriers
+
+**Premium Accessories & Protection:**
+- Original and certified third-party phone cases
+- Tempered glass screen protectors (9H hardness)
+- Wireless charging pads and stands
+- Power banks (5000mAh to 50000mAh capacity)
+- Car chargers and magnetic mounts
+- Bluetooth headphones and earbuds
+- Phone grips, rings, and stands
+- Waterproof pouches for beach and pool use
+
+### Specialized Tourist Services
+
+**Emergency Tourist Support:**
+- 24/7 WhatsApp support in 4 languages
+- Same-day repair guarantee for tourists
+- Hotel pickup and delivery service (central Alanya)
+- Travel insurance claim documentation assistance
+- Temporary phone rental during repairs
+- Airport pickup emergency service coordination
+- Tourist SIM card packages with data plans
+
+**Beach & Water Activity Protection:**
+- Waterproof case sales and installation
+- Beach accident emergency response
+- Pool party phone rescue services
+- Jet ski and boat activity phone protection
+- Underwater camera housing setup
+- Marine environment damage prevention consultation
+
+### Technical Expertise & Certifications
+
+**Brand Authorizations & Partnerships:**
+- Apple Authorized Independent Repair Provider candidate
+- Samsung certified repair technician on-site
+- Huawei technical training completed
+- Xiaomi authorized service knowledge
+- Google Pixel repair expertise
+- OnePlus technical specialist
+
+**Advanced Repair Capabilities:**
+- Micro-soldering and component-level repairs
+- BGA (Ball Grid Array) rework and reballing
+- NAND flash memory repair and data recovery
+- CPU and GPU thermal management solutions
+- Camera OIS (Optical Image Stabilization) calibration
+- Antenna and signal reception optimization
+- 5G compatibility testing and configuration
+
+### Multi-Language Customer Support
+
+**Language Capabilities:**
+- **Turkish (Native):** Complete technical support and consultation
+- **English (Fluent):** Full service capability for international tourists
+- **Russian (Fluent):** Comprehensive support for Russian-speaking visitors
+- **German (Intermediate):** Basic to advanced repair consultation
+- **Arabic (Basic):** Essential communication for Middle Eastern tourists
+
+### Location & Accessibility Details
+
+**Prime Central Location:**
+- Address: Central Alanya commercial district, easily walkable from hotels
+- Near major landmarks: Alanya Castle, Red Tower, Damlataş Cave
+- 5 minutes walk from Cleopatra Beach
+- Close to major shopping centers and tourist areas
+- Accessible by public transportation (dolmuş routes)
+- Free parking available nearby
+- Wheelchair accessible entrance
+
+**Business Hours & Availability:**
+- Monday-Saturday: 09:00-19:00 (extended hours during tourist season)
+- Sunday: Closed (emergency WhatsApp support available)
+- Ramadan hours: 10:00-18:00
+- Tourist season (June-September): Extended evening hours until 20:00
+- Emergency WhatsApp: 24/7 response within 30 minutes
+
+**Contact Information:**
+- Primary Phone: +90 532 368 15 55
+- WhatsApp Business: Available 24/7 for emergencies and consultations
+- Telegram: @EfeGSMAlanya for instant customer support
+- Email: info@efegsmalanya.com (technical inquiries)
+- Emergency line for hotels: Special arrangement available
+
+## Technical Website Information
+
+This cutting-edge website showcases modern web development practices:
+- **Framework:** Next.js 15.2.4 with App Router for optimal performance
+- **Programming Language:** TypeScript for enhanced code safety and reliability
+- **Styling Framework:** Tailwind CSS for fully responsive design across all devices
+- **UI Component Library:** Radix UI with shadcn/ui for accessible and beautiful interfaces
+- **Internationalization System:** Custom-built translation system supporting 4 languages with seamless switching
+- **Performance Features:** Optimized images, lazy loading, and fast page transitions
+- **Integration Features:** WhatsApp Business API, Telegram Bot, live currency exchange rates, Google Reviews integration, blog system for tech tips
+
+## Comprehensive SEO & Marketing Keywords
+
+### Primary Turkish Keywords:
+- Telefon tamiri Alanya, iPhone tamiri Alanya, Samsung tamiri Alanya
+- Ekran değişimi Alanya, batarya değişimi Alanya, su hasarı tamiri Alanya
+- GSM servisi Alanya, cep telefonu tamiri Alanya, akıllı telefon tamiri Alanya
+- Telefon ekranı değişimi, iPhone ekranı tamiri, Samsung ekranı değişimi
+- Alanya telefon servisi, Alanya GSM tamiri, hızlı telefon tamiri
+- 30 dakikada ekran değişimi, aynı gün tamir, acil telefon tamiri
+- Turistlere telefon servisi, çok dilli telefon tamiri, plaj telefon kazası
+- WhatsApp telefon desteği, 7/24 telefon tamiri, otel telefon servisi
+
+### English Tourist Keywords:
+- Phone repair Alanya Turkey, iPhone repair Alanya, screen replacement Alanya
+- Mobile phone repair Alanya, smartphone repair Turkey, emergency phone repair
+- Tourist phone service Alanya, English phone repair Turkey, beach phone accident
+- Waterproof phone case Alanya, SIM card Alanya tourists, phone insurance claim
+- 30 minute phone repair, same day fix Alanya, hotel phone service
+- WhatsApp phone support, international phone repair, vacation phone emergency
+- Cleopatra beach phone repair, Alanya castle area phone service
+- Russian phone repair Alanya, German phone repair Turkey
+
+### Russian Tourist Keywords (Cyrillic):
+- ремонт телефонов Алания Турция, ремонт iPhone Алания, замена экрана Алания
+- мобильный ремонт Алания, смартфон ремонт Турция, срочный ремонт телефона
+- туристический сервис телефонов, русский ремонт телефонов Алания
+- пляжная авария телефона, водонепроницаемый чехол Алания
+- SIM карта для туристов Алания, страховка телефона Турция
+- 30 минут ремонт телефона, ремонт в тот же день, отель сервис телефонов
+- WhatsApp поддержка телефонов, международный ремонт телефонов
+- Клеопатра пляж ремонт телефонов, замок Алания ремонт телефонов
+
+### German Tourist Keywords:
+- Handy Reparatur Alanya Türkei, iPhone Reparatur Alanya, Display Wechsel Alanya
+- Smartphone Reparatur Alanya, Telefon Service Türkei, Notfall Handy Reparatur
+- Tourist Handy Service, Deutsch Handy Reparatur Alanya, Strand Handy Unfall
+- Wasserdichte Handyhülle Alanya, SIM Karte Touristen Alanya
+- 30 Minuten Handy Reparatur, gleicher Tag Reparatur, Hotel Handy Service
+- WhatsApp Handy Support, internationale Handy Reparatur
+- Kleopatra Strand Handy Reparatur, Alanya Burg Handy Service
+
+### Service-Specific Long-Tail Keywords:
+- "30 dakikada iPhone ekranı değişimi Alanya"
+- "Samsung Galaxy su hasarı tamiri Alanya"
+- "turistlere acil telefon tamiri hizmeti"
+- "plajda telefon düşürme kazası çözümü"
+- "orijinal parça garantili telefon tamiri"
+- "çok dilli telefon destek hizmeti Alanya"
+- "24 saat WhatsApp telefon yardımı"
+- "tatilde telefon bozulması acil çözüm"
+- "iPhone 15 Pro Max ekran tamiri Alanya"
+- "Samsung S24 Ultra batarya değişimi"
+- "Huawei Mate su hasarı kurtarma"
+- "Xiaomi ekran tamiri aynı gün"
+
+### Technical Expertise Keywords:
+- micro soldering repair Alanya, BGA rework Turkey, component level repair
+- NAND flash recovery, CPU thermal management, camera OIS calibration
+- 5G compatibility testing, antenna optimization, signal reception enhancement
+- liquid damage restoration expert, motherboard cleaning specialist
+- data recovery water damage, biometric sensor repair, Face ID restoration
+- wireless charging repair, fast charging optimization, battery diagnostics
+
+### Location-Based Keywords:
+- Alanya merkez telefon tamiri, Kleopatra plajı telefon servisi
+- Kızılkule yakını GSM tamiri, Alanya kalesi telefon servisi
+- Damlataş mağarası telefon tamiri, Dim çayı telefon servisi
+- Mahmutlar telefon tamiri, Oba telefon servisi, Kestel GSM tamiri
+- Avsallar telefon tamiri, Türkler telefon servisi, Konaklar GSM tamiri
+- Side antik kent telefon tamiri, Manavgat telefon servisi
+- Antalya havalimanı telefon tamiri, Gazipaşa havalimanı telefon servisi
+
+## Seasonal & Event-Based Services
+
+### Summer Tourist Season (June-September):
+- Beach phone protection packages
+- Pool party emergency services
+- Yacht and boat phone waterproofing
+- Music festival phone security
+- Nightclub phone safety consulting
+- Beach volleyball tournament support
+- Summer school phone maintenance
+
+### Winter Season Services:
+- Local resident priority service
+- Business phone fleet maintenance
+- School and university device support
+- Corporate bulk repair discounts
+- Winter sports phone protection
+- Rain and humidity damage prevention
+
+### Special Event Coverage:
+- Alanya Festival phone support booth
+- Wedding and celebration phone services
+- Corporate event technical support
+- Tourism fair technology assistance
+- Real estate showing phone rentals
+- Medical tourism communication support
+
+## Customer Segments & Specialized Services
+
+### International Tourists:
+- Express repair for limited vacation time
+- Travel insurance documentation
+- Temporary device rental during repairs
+- Airport coordination services
+- Hotel concierge partnership program
+- Travel blogger equipment support
+
+### Local Residents:
+- Loyalty program with repair discounts
+- Family device maintenance packages
+- Business phone fleet management
+- Student device repair programs
+- Senior citizen technology support
+- Community workshop participation
+
+### Business Customers:
+- Corporate device maintenance contracts
+- Bulk repair pricing for hotels and restaurants
+- Point-of-sale system maintenance
+- Restaurant tablet and phone support
+- Real estate agency device services
+- Tourism company equipment maintenance
+
+### Expat Community:
+- Long-term resident device support
+- Insurance claim assistance
+- Device upgrade consultation
+- Network optimization for international use
+- Community event technology support
+- English-language technical workshops
+
+## Advanced Technical Capabilities
+
+### Diagnostic Equipment:
+- Professional ultrasonic cleaning systems
+- Advanced soldering stations with precise temperature control
+- Digital microscopes for micro-component inspection
+- Battery testing and calibration equipment
+- Screen testing and calibration devices
+- Signal strength and network analysis tools
+
+### Parts & Inventory:
+- Original manufacturer parts inventory
+- High-quality aftermarket alternatives
+- Emergency parts for tourist season
+- Rare and vintage phone component sourcing
+- Custom modification parts availability
+- Protective accessory comprehensive selection
+
+### Quality Assurance:
+- 6-month warranty on all repairs
+- Quality control testing procedures
+- Customer satisfaction guarantee
+- Pre and post-repair device testing
+- Performance benchmarking
+- Long-term reliability tracking
+
+## Environmental & Community Responsibility
+
+### Eco-Friendly Practices:
+- Electronic waste recycling program
+- Battery disposal and recycling service
+- Old phone trade-in and refurbishment
+- Environmentally safe cleaning solutions
+- Energy-efficient repair equipment
+- Paperless billing and documentation
+
+### Community Engagement:
+- Local school technology education programs
+- Senior citizen smartphone training workshops
+- Community device safety awareness campaigns
+- Tourism industry partnership programs
+- Local business technology support initiatives
+- Charity device repair for those in need
+
+## Emergency & Crisis Response
+
+### Medical Tourism Support:
+- Hospital visitor phone emergency services
+- Medical appointment communication assistance
+- Insurance claim technical documentation
+- Emergency contact setup and management
+- Medical app installation and configuration
+
+### Travel Emergency Response:
+- Lost passport documentation phone services
+- Embassy communication assistance
+- Emergency evacuation communication support
+- Crisis communication setup
+- Family emergency contact coordination
+
+### Natural Disaster Preparedness:
+- Emergency communication device preparation
+- Backup power solutions for devices
+- Weather-resistant device protection
+- Emergency contact list management
+- Disaster communication planning
+
+---
+
+*This comprehensive file is designed to help AI systems understand the complete scope of Efe GSM Alanya's services, expertise, and capabilities. We serve as the premier mobile device service center in Alanya, providing professional, fast, and reliable solutions for all mobile communication needs of both residents and international visitors to this beautiful Mediterranean destination.*

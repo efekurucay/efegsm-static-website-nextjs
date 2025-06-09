@@ -45,7 +45,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">{t("contact.title")}</h3>
             <div className="space-y-2 text-sm text-gray-300">
               <p>📍 Alanya, Antalya</p>
-              <p>📞 +90 XXX XXX XX XX</p>
+              <p>📞 +90 532 368 15 55</p>
               <p>✉️ info@efegsmalanya.com</p>
             </div>
           </div>

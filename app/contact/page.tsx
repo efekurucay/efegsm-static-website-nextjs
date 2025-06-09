@@ -13,34 +13,34 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: t("contact.address"),
-      content: "Alanya Merkez, Antalya, Türkiye",
-      subContent: "Kolay ulaşılabilir merkezi konumumuz",
+      content: t("about.location.address"),
+      subContent: t("contact.info.address.desc"),
     },
     {
       icon: Phone,
       title: t("contact.phone"),
       content: "+90 532 368 15 55",
-      subContent: "Pazartesi - Cumartesi: 09:00 - 19:00",
+      subContent: t("contact.info.phone.desc"),
     },
     {
       icon: Mail,
       title: t("contact.email"),
-      content: "info@efegsmalanya.com",
-      subContent: "24 saat içinde yanıt garantisi",
+      content: t("contact.info.email.content"),
+      subContent: t("contact.info.email.desc"),
     },
     {
       icon: Clock,
-      title: "Çalışma Saatleri",
-      content: "Pazartesi - Cumartesi",
-      subContent: "09:00 - 19:00 (Pazar kapalı)",
+      title: t("contact.info.hours.title"),
+      content: t("contact.info.hours.content"),
+      subContent: t("contact.info.hours.desc"),
     },
   ]
 
   const languages = [
-    { flag: "🇹🇷", name: "Türkçe", level: "Ana dil" },
-    { flag: "🇬🇧", name: "English", level: "Akıcı" },
-    { flag: "🇷🇺", name: "Русский", level: "Akıcı" },
-    { flag: "🇩🇪", name: "Deutsch", level: "Orta seviye" },
+    { flag: "🇹🇷", name: "Türkçe", level: t("contact.language.turkish") },
+    { flag: "🇬🇧", name: "English", level: t("contact.language.english") },
+    { flag: "🇷🇺", name: "Русский", level: t("contact.language.russian") },
+    { flag: "🇩🇪", name: "Deutsch", level: t("contact.language.german") },
   ]
 
   return (
@@ -49,14 +49,14 @@ export default function ContactPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{t("contact.title")}</h1>
-          <p className="text-xl text-gray-600">Size nasıl yardımcı olabiliriz?</p>
+          <p className="text-xl text-gray-600">{t("contact.subtitle")}</p>
         </div>
 
         {/* Quick Contact */}
         <section className="mb-16">
           <div className="bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-8 text-white text-center">
-            <h2 className="text-3xl font-bold mb-4">Hızlı İletişim</h2>
-            <p className="text-xl mb-8">Anında destek için WhatsApp veya Telegram'dan ulaşın</p>
+            <h2 className="text-3xl font-bold mb-4">{t("contact.quick.title")}</h2>
+            <p className="text-xl mb-8">{t("contact.quick.subtitle")}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <WhatsAppButton className="bg-white text-green-600 hover:bg-gray-100" size="lg" />
               <TelegramButton className="bg-white text-blue-600 hover:bg-gray-100" size="lg" />
@@ -90,8 +90,8 @@ export default function ContactPage() {
         {/* Language Support */}
         <section className="mb-16">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Dil Desteği</h2>
-            <p className="text-lg text-gray-600">Size kendi dilinizde hizmet veriyoruz</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("contact.language.title")}</h2>
+            <p className="text-lg text-gray-600">{t("contact.language.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -110,8 +110,8 @@ export default function ContactPage() {
         {/* Map Section */}
         <section className="mb-16">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Konumumuz</h2>
-            <p className="text-lg text-gray-600">Alanya merkez konumumuzda sizleri bekliyoruz</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("contact.map.title")}</h2>
+            <p className="text-lg text-gray-600">{t("contact.map.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -135,22 +135,22 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
                     <MapPin className="w-5 h-5 text-red-500" />
-                    <span>Adres Detayları</span>
+                    <span>{t("contact.details.title")}</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     <p>
-                      <strong>Adres:</strong> Alanya Merkez, Antalya
+                      <strong>{t("contact.details.address")}</strong> {t("about.location.address")}
                     </p>
                     <p>
-                      <strong>Yakın Noktalar:</strong> Alanya Belediyesi yakını
+                      <strong>{t("contact.details.nearby")}</strong> {t("contact.details.nearby.content")}
                     </p>
                     <p>
-                      <strong>Ulaşım:</strong> Şehir merkezi, kolay ulaşım
+                      <strong>{t("contact.details.transport")}</strong> {t("contact.details.transport.content")}
                     </p>
                     <p>
-                      <strong>Otopark:</strong> Ücretsiz otopark imkanı
+                      <strong>{t("contact.details.parking")}</strong> {t("contact.details.parking.content")}
                     </p>
                     <div className="mt-4">
                       <a
@@ -160,7 +160,7 @@ export default function ContactPage() {
                         className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
                       >
                         <Star className="w-4 h-4 mr-2" />
-                        Google'da Yorum Yap
+                        {t("contact.review")}
                       </a>
                     </div>
                   </div>
@@ -171,26 +171,26 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
                     <Clock className="w-5 h-5 text-blue-500" />
-                    <span>Çalışma Saatleri</span>
+                    <span>{t("contact.info.hours.title")}</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span>Pazartesi - Cuma:</span>
+                      <span>{t("contact.hours.monday")}</span>
                       <span className="font-semibold">09:00 - 19:00</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Cumartesi:</span>
+                      <span>{t("contact.hours.saturday")}</span>
                       <span className="font-semibold">09:00 - 18:00</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Pazar:</span>
-                      <span className="font-semibold text-red-500">Kapalı</span>
+                      <span>{t("contact.hours.sunday")}</span>
+                      <span className="font-semibold text-red-500">{t("contact.hours.closed")}</span>
                     </div>
                     <div className="mt-4 p-3 bg-blue-50 rounded-lg">
                       <p className="text-sm text-blue-700">
-                        <strong>Acil durumlar:</strong> WhatsApp üzerinden 7/24 ulaşabilirsiniz
+                        <strong>{t("contact.emergency")}</strong> {t("contact.emergency.desc")}
                       </p>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Ekran değişimi 6 ay, batarya değişimi 1 yıl, su hasarı tamiri 3 ay garanti veriyoruz.
+                  Orijinal parçalarda kullanıcı taraflı hasar tespit edilmedikçe garanti veriyoruz.
                 </p>
               </CardContent>
             </Card>

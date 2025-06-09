@@ -29,7 +29,7 @@ export function Header() {
               <img src="/images/efe-gsm-logo.png" alt="Efe GSM Alanya Logo" className="w-12 h-12 object-contain" />
               <div className="flex flex-col">
                 <span className="font-bold text-xl text-red-600">{t("site.title")}</span>
-                <span className="text-xs text-gray-600 hidden sm:block">Profesyonel GSM Hizmetleri</span>
+                <span className="text-xs text-gray-600 hidden sm:block">{t("site.subtitle")}</span>
               </div>
             </Link>
 
@@ -58,7 +58,7 @@ export function Header() {
                 onClick={() => setShowCurrency(!showCurrency)}
               >
                 <DollarSign className="w-4 h-4 mr-1" />
-                Döviz
+                {t("header.currency")}
               </Button>
 
               <DropdownMenu>
@@ -157,7 +157,7 @@ export function Header() {
                   }}
                 >
                   <DollarSign className="w-4 h-4 mr-1" />
-                  Döviz Kurları
+                  {t("header.exchange.rates")}
                 </Button>
               </nav>
             </div>
@@ -169,7 +169,7 @@ export function Header() {
       {showCurrency && (
         <div className="fixed top-20 right-0 z-40 bg-white shadow-lg rounded-bl-lg overflow-hidden border border-gray-200">
           <div className="flex justify-between items-center p-2 bg-gray-100">
-            <h3 className="text-sm font-medium">Döviz Kurları</h3>
+            <h3 className="text-sm font-medium">{t("header.exchange.rates")}</h3>
             <button onClick={() => setShowCurrency(false)} className="text-gray-500 hover:text-gray-700">
               <X className="w-4 h-4" />
             </button>
